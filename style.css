@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cafe{
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color:gray;
+    margin-top: 10px;
+    margin: right 30px !important;
+}
+.nav-link{
+    font-family: "Playfair Display", serif;
+    padding: 0px 10px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar{
+    background-color:#e0767167 !important;
+    padding: 0 !important;
+}
+.navbar a{
+    color: #fff !important;
+}
+
+
+.text-overlay p{
+    font-family: "Playfair Display", serif;
+    margin-top: 99px;
+    font-size: 25px;
+    color:#fff;
+    
+}
+.text-overlay h1{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color:#fff;
+}
+.banner{
+    background:linear-gradient(to left , #0000006c ,#000000de), url(../image/banner/image.png);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buto{
+    margin-top: 10%;
+}
+
+
+.sec-btn
+{
+    margin-left: 20px;
+}
+.buto a {
+	border: 1px solid ;
+	padding: 15px 30px;
+	color:white;
+    font-size: 13px;
+    transition: .5s;
+	text-decoration: none;
+    font-weight: 600;
+	background: transparent;
+}
+
+    
+.buto a:hover{
+    background-color:#dddddd86;
+    color: #000000;
+    border: 1px solid white;
+}
+.owl-carousel{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute !important;
+    /* background: 0 0; */
+    color: inherit;
+    border: none;
+    font: inherit;
+    top: 10px;
+
+    right: 0px !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute !important;
+    /* background: 0 0; */
+    color: inherit;
+    border: none;
+    top: 10px;
+    font: inherit;
+    left: 0px !important;
+}
+.owl-prev span{
+	color: #e9e7e7;
+	font-size: 30px;
+	padding: 5px 15px 10px;
+    
+}
+.owl-next span{
+	color: #f5e9e9;
+	font-size:30px;
+	
+
+}
+.slider{
+    background-color: #848482;
+    color: #fff;
+    height: 70px;
+}
+.owl-carousel p{
+    margin-top: 20px;
+}
+
+
+.about-us h1{
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 700;
+    /* margin-top: 30%; */
+}
+.about-us h6{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    
+    
+}
+.about-us p{
+    
+ 
+    font-size: 20px;
+   
+}
+.see{
+    margin-top: 49px;
+}
+.see a{
+
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #000;
+    padding: 13px 33px;   
+}
+.see a:hover{
+    background-color:#696969;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.about-2text h1{
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 700;
+   
+}
+.about-2text p{
+    padding-top: 30px;
+    font-size: 18px;
+   
+}
+.about-us{
+    margin-top: 20%;
+}
+
+.address{
+    border-right:1px solid black ;
+    margin-top: 30px;
+}
+.contact{
+    background-color: rgb(233, 178, 175);
+  
+}
+.contact-text h1{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.address{
+   
+    border-right: 1px solid black;
+    
+   
+}
+.address h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 100;
+   
+   
+    
+    
+}
+.address p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-family: serif;
+    
+}
+.time{
+    margin-top:30px ;
+   
+}
+.time h4{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 100;
+   
+    
+}
+.time p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-family: serif;
+    
+}   
+.footer{
+    background-color: #404d3c;
+    color: white;
+    padding: 30px 0;
+    
+   
+    
+}
+ .footer-left{
+    font-family: "Playfair Display", serif;
+    
+}
+.footer-left p{
+    font-family: "Playfair Display", serif;
+  
+    font-size: 16px;
+
+}
+
+.footer-mid h2{
+    font-family: "Playfair Display", serif;
+}
+.footer-mid p{
+    font-family: "Playfair Display", serif;
+    
+    font-size: 15px;
+}
+
+.formContent input{
+    font-family: "Playfair Display", serif;
+    width:73%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 1px solid red;
+    background-color:#fff;
+}
+.join{
+   width: 27%;
+   padding: 9px 13px;
+   margin-left: -5px !important;
+   border: 1px solid white;
+   background-color: #404d3c;
+   color: #fff;
+    
+}
+.insta{
+    font-family: "Playfair Display", serif;
+   
+}
+.face{
+    font-family: "Playfair Display", serif;
+}
+.twit{
+    font-family: "Playfair Display", serif;
+  
+}
+.link-fild{
+    margin-top: 7px;
+}
+.link-fild a{
+    text-decoration: none;
+} 
+
+
+
+@media screen and (max-width:769px){
+    .buto a{   
+         border: 1px solid;
+        padding: 8px 10px;
+        color: white;
+        font-size: 11px;
+    }
+    .owl-next span {
+        color: #f5e9e9;
+        font-size: 23px;
+    }
+    .banner{
+        height: 300px;
+    }
+    .owl-carousel p{
+        font-size: 11px;
+        padding-left: -10px;
+    }
+.owl-prev span {
+    color: #e9e7e7;
+    font-size: 23px;
+    padding-left: -20px;
+    
+}
+.text-overlay p {
+    font-size: 18px;
+}
+.text-overlay h1 {
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+
+    
+    /* abpout us css  */
+    .about-us {
+        margin-top:25px;
+        margin-bottom: 20px;
+    }
+    .about-us h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 35px;
+    }
+    .about-us h6 {
+        font-family: "Playfair Display", serif;
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .about-us p {
+        padding-top: 3px;
+        font-size: 15px;
+    }
+
+    .see {
+        margin-top: 25px;
+    }
+
+    .see a {
+       
+        padding: 5px 9px;
+    }
+    .contact-text h1 {
+        font-family: "Playfair Display", serif;
+        padding-top: 45px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .address {
+        margin-top: -16px;
+        border: none;
+    }
+
+    .text-start {
+        text-align: center;
+    }
+
+    .address p {
+        font-family: "Playfair Display", serif;
+        padding-top:5px;
+        font-size: 17px;
+        font-family: serif;
+    }
+
+    .time {
+        margin-top: 5px;
+    }
+
+    .time p {
+        font-family: "Playfair Display", serif;
+        padding-top: 5px;
+        font-size: 15px;
+        font-family: serif;
+    }
+
+    .footer-about us img{
+        margin-left: 0px; 
+       padding-top: 20px; 
+    }
+
+    .footer-about us h3{
+        font-family: "Playfair Display", serif;
+    }
+
+    .links{
+        margin-top: 20px;
+    }
+
+
+
+.footer{
+    padding: 50px 0px;
+}
+
+    .footer-left {
+        font-family: "Playfair Display", serif;
+         margin-top: 0;
+        text-align: center;
+     
+    }
+
+    .footer-mid {
+        margin-top: 17%;
+        align-items: center;
+    }
+    .socail{
+    align-items: center;
+    }
+    .insta {
+        font-family: "Playfair Display", serif;
+        margin-top: 10%;
+        font-size: 32px;
+    }
+
+    .face {
+        font-family: "Playfair Display", serif;
+        margin-top: 5%;
+        font-size: 32px;
+    }
+
+    .twit {
+       
+        font-family: "Playfair Display", serif;
+        margin-top: 5%;
+        font-size: 32px;  
+        margin-bottom: -5px;  
+        
+    }
+} 
+
+@media screen and (max-width:769px){
+    .see {
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .about-us h1{
+        margin-top: 4%;
+    }
+   
+    .address {
+       
+        border: none;
+    }
+    
+   
+    .footer-mid{
+        margin-top:15%;
+    }
+    .insta {
+        font-family: "Playfair Display", serif;
+        margin-top: 12%;
+        font-size: 29px;
+    }
+    .formContent input{  
+    width: 35%; 
+    }
+    .join{
+        width: 15%;
+    }
+} 
+
+@media screen and (max-width:769px){
+    .buto{
+        
+    margin-top: -1%;
+    }
+}
+
+
+@media screen and (min-width:770px) and (max-width:991px) {
+    .about-us h1{
+        margin-top: -17%; 
+    } 
+
+    .about-img{
+        margin-top: 40px;
+    }
+
+    .about-2 img{
+        margin-top: 40px;
+    }
+    .contact-text h1{
+        margin-top: 30px;
+    }
+
+    .address{
+        border-right:none ;
+        
+    }
+
+    .formContent input{
+        width: 41%; 
+    }
+
+    .join{
+        width: 20%;
+    }
+
+    .footer-left{
+        margin-top: 0px;
+    }
+}
+
+
+
